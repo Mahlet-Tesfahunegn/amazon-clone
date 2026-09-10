@@ -34,9 +34,9 @@ function Header (){
             <select name="" id="">
               <option value="">All</option>
             </select>
-            <input type="text" placeholder="search product" />
+            <input type="text" placeholder="Search Amazon" />
             {/* icon */}
-            <BsSearch size={25} />
+            <BsSearch size={40} />
           </div>
     
           <div className={classes.order_container}>
