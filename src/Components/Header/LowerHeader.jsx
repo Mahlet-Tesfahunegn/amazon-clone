@@ -10,6 +10,8 @@ function LowerHeader(){
           <AiOutlineMenu />
           <p>All</p>
         </li>
+        <li>Prime Video</li>
+        <li>Coupons</li>
         <li>Today's Deals</li>
         <li>Costumer Service</li>
         <li>Registry</li>

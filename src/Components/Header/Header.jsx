@@ -68,6 +68,7 @@ function Header (){
               {/* icon */}
               <BiCart size={35}/>
               <span>0</span>
+              <p>Cart</p>
             </a>
 
           </div>
