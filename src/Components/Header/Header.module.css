@@ -3,8 +3,16 @@
   margin:0;
 }
 
+
+
 body{
   overflow-x: hidden;
+}
+
+.sticky_header{
+  position: sticky;
+  top:0;
+  z-index: 100;
 }
 
 .header_container{
