@@ -36,7 +36,7 @@ const Result = () => {
                 <div className = {classes.product_container}>
                     {
                         result?.map((product) => {
-                            return <ProductsCard product = {product} key = {product.id}/>
+                            return <ProductsCard product = {product} key = {product.id} renderAdd = {true}/>
                         }) 
                     }
                 </div>

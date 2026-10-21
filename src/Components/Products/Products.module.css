@@ -63,7 +63,7 @@
 .product_flexed{
     display: flex;
     box-shadow: none;
-    height: 50vh;
+    height: 70vh;
     gap: 50px;
     width: 100%;
 }

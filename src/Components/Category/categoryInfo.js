@@ -1,22 +1,23 @@
+
 export const categoryInfos = [
   {
     title: "Electronics",
     name: "electronics",
-    imgLink:" ",
+    imgLink:"./img/electronics.jpg",
   },
   {
     title: "Discover fashion trends",
     name: "women's clothing",
-    imgLink: "",
+    imgLink: "./img/fashion.jpg",
   },
   {
     title: "Men's clothing",
     name: "men's clothing",
-    imgLink: "",
+    imgLink: "./img/menClothing.avif",
   },
   {
     title: "Jewelery",
     name: "jewelery",
-    imgLink: "",
+    imgLink: "./img/jewlery.jpg",
   },
 ];

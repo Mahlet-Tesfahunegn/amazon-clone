@@ -1,7 +1,8 @@
 import { Type } from "./action.type";
 
 export const initialState = {
-    basket : []
+    basket : [],
+    user: []
 }
 
 export const reducer = (state, action) => {
