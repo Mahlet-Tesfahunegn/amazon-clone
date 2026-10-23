@@ -1,6 +1,6 @@
 import react, { useContext } from 'react'
 import Rating from '@mui/material/Rating'
-import CurrencyFromatter from '../CurrencyFormatter/CurrencyFormatter';
+import CurrencyFormatter from '../CurrencyFormatter/CurrencyFormatter';
 import classes from './Products.module.css'
 import {Link} from 'react-router-dom'
 import { Type } from '../../Utility/action.type';
@@ -26,8 +26,8 @@ const ProductsCard = ({product, flex, renderDesc, renderAdd}) => {
                 <img src={image} alt="" />
             </Link>
             <div>
-                {renderDesc && <div style = {{maxWidth : "750px", paddingTop: "15px"}}>{description}</div>}
                 <h3>{title}</h3>
+                {renderDesc && <div style = {{maxWidth : "750px"}}>{description}</div>}
                 <div className = {classes.rating}>
                     {/* rating */}
                     <Rating value ={rating?.rate} precision = {0.1}/>
@@ -36,7 +36,7 @@ const ProductsCard = ({product, flex, renderDesc, renderAdd}) => {
                 </div>
                 <div>
                     {/* price */}
-                    <CurrencyFromatter amount = {price}/>
+                    <CurrencyFormatter amount = {price}/>
                 </div>
                 { renderAdd && <button className={classes.button} onClick={add_to_cart}>add to cart</button> }  
             </div> 

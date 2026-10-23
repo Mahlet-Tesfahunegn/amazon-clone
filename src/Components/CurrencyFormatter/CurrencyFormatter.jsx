@@ -1,7 +1,7 @@
 import react from 'react'
 import numeral from 'numeral'
 
-const CurrencyFromatter = (amount) => {
+const CurrencyFormatter = ({amount}) => {
     const formattedAmount = numeral(amount).format("$0, 0.00");
     
     return(
@@ -9,4 +9,4 @@ const CurrencyFromatter = (amount) => {
     )
 }
 
-export default CurrencyFromatter
+export default CurrencyFormatter
