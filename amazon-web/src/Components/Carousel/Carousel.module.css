@@ -1,0 +1,21 @@
+.hero_img{
+    position: relative;
+    width: 100%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.hero_img::before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255,255,255,0),
+        rgba(255,255,255)
+    );
+}
